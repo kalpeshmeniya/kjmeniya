@@ -113,4 +113,15 @@ body
     cursor: pointer;
     user-select: none;
 }
-@media screen and (max-width: 768px) {.container{padding:0;margin:0;width:100%; top:35%;position:relative;}.logo img{width:60% !important; float:none !important;margin:0;padding:0;margin-bottom:5px !important;}.gsearchbox{padding:0;margin:0 !important;width:100%;display:block !important;}.serbox{margin:0px;display:inline-block;float:none !important;}.result{margin:5px !important;padding:0px;display:block;float:none;width:98.70%;margin-top:60px !important;}.result center{width:98.50% !important;margin:0 !important} }
+.microphone-icon {
+    background: url('//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png') 0 0 no-repeat;
+    background-size: 21px 21px;
+    bottom: 0;
+    cursor: pointer;
+    margin-inline-end: 16px;
+    position: absolute;
+    right: 35px;
+    top: 7px;
+    width: 21px;
+}
+@media screen and (max-width: 768px) {.container{padding:0;margin:0;width:100%; top:35%;position:relative;}.logo img{width:60% !important; float:none !important;margin:0;padding:0;margin-bottom:5px !important;}.gsearchbox{padding:0;margin:0 !important;width:100% !important;display:block !important;margin-left:-5px !important;}.serbox{margin:0px;display:inline-block;float:none !important;}.result{margin:5px !important;padding:0px;display:block;float:none;width:98.70%;margin-top:60px !important;}.result center{width:98.50% !important;margin:0 !important} }
