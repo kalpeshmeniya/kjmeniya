@@ -1,4 +1,3 @@
-window.onload = function() {myFunction();};
        function myFunction()
        {
          var strurl=window.location.href;
