@@ -11,7 +11,7 @@ function myFunction()
 	var res=document.getElementById("result");
 	var queryt=document.getElementById("queryt");
 	var container=document.getElementById("container");
-	if(qry.length&gt;0)
+	if(qry.length>0)
 	{
 		queryt.value=qry;
 		logo.style="float:left;width:150px !important;margin-top:15px;";
