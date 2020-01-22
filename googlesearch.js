@@ -1,25 +1,25 @@
-       function myFunction()
-       {
-         var strurl=window.location.href;
-         var url = new URL(strurl);
-         var qry = url.searchParams.get(&quot;q&quot;);
-         var logo=document.getElementById(&quot;logo&quot;);
-     	 var ser=document.getElementById(&quot;ser&quot;);
-         var submit=document.getElementById(&quot;submit&quot;);
-     	 var gsbox=document.getElementById(&quot;gsbox&quot;);
-     	 var submitl=document.getElementById(&quot;submitl&quot;);
-       	 var res=document.getElementById(&quot;result&quot;);
-     	 var queryt=document.getElementById(&quot;queryt&quot;);
-       	 var container=document.getElementById(&quot;container&quot;);
-         if(qry.length&gt;0)
-         {
-     		queryt.value=qry;
-     		logo.style=&quot;float:left;width:150px !important;margin-top:15px;&quot;;
-     		ser.style=&quot;float:none&quot;;
-     		gsbox.style=&quot;display:block;float:left;&quot;;
-         	res.style=&quot;display:block;margin-top:60px;margin-bottom:20px;margin-left:5px;margin-right:5px;&quot;;
-     		submit.style=&quot;display:none;background:#4285f4;color:#fff;&quot;;
-     		submitl.style.display=&quot;none&quot;;
-       		container.style=&quot;top:0;&quot;;
-         }
-       }
+function myFunction()
+{
+	var strurl=window.location.href;
+	var url = new URL(strurl);
+	var qry = url.searchParams.get("q");
+	var logo=document.getElementById("logo");
+	var ser=document.getElementById("ser");
+	var submit=document.getElementById("submit");
+	var gsbox=document.getElementById("gsbox");
+	var submitl=document.getElementById("submitl");
+	var res=document.getElementById("result");
+	var queryt=document.getElementById("queryt");
+	var container=document.getElementById("container");
+	if(qry.length&gt;0)
+	{
+		queryt.value=qry;
+		logo.style="float:left;width:150px !important;margin-top:15px;";
+		ser.style="float:none";
+		gsbox.style="display:block;float:left;";
+		res.style="display:block;margin-top:60px;margin-bottom:20px;margin-left:5px;margin-right:5px;";
+		submit.style="display:none;background:#4285f4;color:#fff;";
+		submitl.style.display="none";
+		container.style="top:0;";
+	}
+}
