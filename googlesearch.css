@@ -1,0 +1,117 @@
+body 
+{ 
+    color: #000; 
+    background: #fff; 
+    padding: 0 ; 
+    margin: 0;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+border-top:1px solid #555;
+
+}
+.container
+{
+  top:30%;
+  position:absolute;
+  padding:0;
+  margin:0px;
+  width:100%;
+
+}
+.logo img
+{
+  width:300px;
+  padding:10px;
+}
+
+.footer
+{
+    font-size:1em;
+    background:#fff;
+	padding:10px 0;
+}
+.footer a
+{
+	text-decoration:none;
+	display:inline-block;
+	color:#4285f4;  
+	padding:5px;
+	font-weight:500;
+}
+.result
+{
+	margin:0 130px;
+	width:70%;
+	float:none;
+	position:relative;
+
+}
+.result center
+{
+	margin:0 170px;
+	width:80%;
+	box-shadow:0px 0px 2px #999;
+	text-align:left !important;
+	float:none;
+	position:relative;
+}
+.gsearchbox
+{
+    width:60%;
+    padding:3px;
+    padding-bottom:1px;
+	float:none;
+}
+.ser
+{
+    width:98%; 
+	position: relative;
+    margin:10px;
+}
+.ser input {display:block; border:none; width: 99%; box-sizing: border-box }
+.ser button
+{
+	position:absolute;
+	color:#fff;
+    cursor:pointer;
+    border:none;
+    background:#4285f4;
+	padding:12px 14px !important;
+    margin:1px 2px;
+	margin-right:2.7px;
+    border-radius:0px 3px 3px 0px;
+	top: 0px; right: 0px;
+}
+.ser .serbox
+{
+    padding:10px 15px;
+   	padding-right:42px;
+    font-size:1em;
+	background-color: transparent;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    border-radius:3px;
+    font-size: 16px;
+	box-shadow:0px 0px 1px #000;
+}
+.serbtn
+{
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+@media screen and (max-width: 768px) {.container{padding:0;margin:0;width:100%; top:35%;position:relative;}.logo img{width:60% !important; float:none !important;margin:0;padding:0;margin-bottom:5px !important;}.gsearchbox{padding:0;margin:0 !important;width:100%;display:block !important;}.serbox{margin:0px;display:inline-block;float:none !important;}.result{margin:5px !important;padding:0px;display:block;float:none;width:98.70%;margin-top:60px !important;}.result center{width:98.50% !important;margin:0 !important} }
