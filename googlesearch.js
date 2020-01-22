@@ -16,7 +16,7 @@ function myFunction()
 		queryt.value=qry;
 		logo.style="float:left;width:150px !important;margin-top:15px;";
 		ser.style="float:none";
-		gsbox.style="display:block;float:left;";
+		gsbox.style="display:block;float:left;margin-left:-10px;width:58%;";
 		res.style="display:block;margin-top:60px;margin-bottom:20px;margin-left:5px;margin-right:5px;";
 		submit.style="display:none;background:#4285f4;color:#fff;";
 		submitl.style.display="none";
