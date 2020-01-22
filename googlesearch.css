@@ -6,8 +6,7 @@ body
     margin: 0;
     font-family: arial,sans-serif;
     font-size: 14px;
-border-top:1px solid #555;
-
+    border-top:1px solid #555;
 }
 .container
 {
@@ -16,7 +15,6 @@ border-top:1px solid #555;
   padding:0;
   margin:0px;
   width:100%;
-
 }
 .logo img
 {
@@ -28,7 +26,8 @@ border-top:1px solid #555;
 {
     font-size:1em;
     background:#fff;
-	padding:10px 0;
+    padding:10px 0;
+    border-bottom:1px solid #555;
 }
 .footer a
 {
@@ -60,45 +59,46 @@ border-top:1px solid #555;
     width:60%;
     padding:3px;
     padding-bottom:1px;
-	float:none;
+    float:none;
 }
 .ser
 {
     width:98%; 
-	position: relative;
+    position: relative;
     margin:10px;
 }
 .ser input {display:block; border:none; width: 99%; box-sizing: border-box }
 .ser button
 {
-	position:absolute;
-	color:#fff;
+    position:absolute;
+    color:#fff;
     cursor:pointer;
     border:none;
     background:#4285f4;
-	padding:12px 14px !important;
+    padding:12px 14px !important;
     margin:1px 2px;
-	margin-right:2.7px;
+    margin-right:2.7px;
     border-radius:0px 3px 3px 0px;
-	top: 0px; right: 0px;
+    top: 0px; 
+    right: 0px;
 }
 .ser .serbox
 {
     padding:10px 15px;
-   	padding-right:42px;
+    padding-right:42px;
     font-size:1em;
-	background-color: transparent;
+    background-color: transparent;
     color: rgba(0,0,0,.87);
     word-wrap: break-word;
     outline: none;
     -webkit-tap-highlight-color: transparent;
     border-radius:3px;
     font-size: 16px;
-	box-shadow:0px 0px 1px #000;
+    box-shadow:0px 0px 1px #000;
 }
 .serbtn
 {
-	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
