@@ -1311,4 +1311,12 @@
     opacity: 1;
     box-shadow: 0 0 2vw 0.4vw blue;
   }
+  10% {
+    opacity: 1;
+    box-shadow: 0 0 2vw 0.4vw lime;
+  }
+  70% {
+    opacity: 1;
+    box-shadow: 0 0 2vw 0.4vw green;
+  }
 }
