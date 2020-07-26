@@ -17,14 +17,14 @@
   transform-origin: -10vw;
 }
 .firefly::before {
-  background: black;
+  background: green;
   opacity: 0.4;
   animation: drift ease alternate infinite;
 }
 .firefly::after {
-  background: white;
+  background: lime;
   opacity: 0;
-  box-shadow: 0 0 0vw 0vw yellow;
+  box-shadow: 0 0 0vw 0vw red;
   animation: drift ease alternate infinite, flash ease infinite;
 }
 
