@@ -1,3 +1,18 @@
+@keyframes hue-rotate {  
+  from {    
+    -webkit-filter: hue-rotate(0);
+  -moz-filter: hue-rotate(0);
+  -ms-filter: hue-rotate(0);
+  filter: hue-rotate(0);  
+  }
+  to 
+  {    
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg); 
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);  
+  }
+}
 .firefly {
   position: fixed;
   left: 50%;
@@ -19,13 +34,17 @@
 .firefly::before {
   background: green;
   opacity: 0.4;
-  animation: drift ease alternate infinite;
+  animation: drift ease alternate infinite,hue-rotate 3s infinite linear;
+  background:linear-gradient(233deg, #e56420, #c22525, #3d9c31, #37bbde);    
+  background-size:cover;    
+  background-blend-mode: hard-light;    
+
 }
 .firefly::after {
   background: lime;
   opacity: 0;
   box-shadow: 0 0 0vw 0vw red;
-  animation: drift ease alternate infinite, flash ease infinite;
+  animation: drift ease alternate infinite, flash ease infinite,hue-rotate 3s infinite linear;
 }
 
 .firefly:nth-child(1) {
